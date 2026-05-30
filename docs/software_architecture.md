@@ -90,6 +90,7 @@ An academic case study evaluated the performance of three different control desi
 The complete microgrid operation was simulated in MATLAB/Simulink.
 
 ![Simulink Microgrid Model](../images/Complete%20Integrated%20Simulink%20Model%20of%20the%20Proposed%20Hybrid%20Renewable.png)
+
 *Figure 4.1: Integrated Simulink Model of the Proposed Hybrid Renewable Microgrid*
 
 ````carousel
