@@ -9,6 +9,7 @@ This document describes the high-level architecture, subsystem configurations, a
 The system is designed around a **Common DC Bus Architecture** that integrates four energy sources: Solar PV, Wind, PEM Fuel Cell, and Battery Storage. This centralized bus approach reduces conversion stages, simplifies control logic, and stabilizes power transfer.
 
 ![Overall System Architecture](../images/Overall%20System%20Architecture%20of%20the%20Proposed%20Hybrid%20Renewable%20Energy.png)
+
 *Figure 3.1: Overall System Architecture of the Proposed Hybrid Renewable Energy System*
 
 ---
