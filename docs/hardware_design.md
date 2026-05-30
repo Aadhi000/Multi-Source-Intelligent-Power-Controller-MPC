@@ -64,22 +64,37 @@ This document details the physical hardware, pin configurations, component speci
 | **GPIO 18** | Blue | Wind Source Active |
 | **GPIO 19** | Red | Fuel Cell Source Active |
 
+## 📸 Hardware Component Gallery
+
+````carousel
+![ESP32 Development Board](../images/ESP32%20Development%20Board.jpg)
+<!-- slide -->
+![INA219 Current Sensor](../images/INA219%20Current%20Sensor.jpg)
+<!-- slide -->
+![IRLZ44N MOSFET](../images/IRLZ44N%20MOSFET.jpg)
+<!-- slide -->
+![0.91-Inch OLED Display](../images/0.91-Inch%20OLED%20Display.jpg)
+<!-- slide -->
+![MP1584 DC-DC Buck Converter](../images/MP1584%20DC-DC%20Buck%20Converter.jpg)
+<!-- slide -->
+![Schottky Diode](../images/Schottky%20Diod.jpg)
+<!-- slide -->
+![DC-DC Boost Converter](../images/DC-DC%20Boost%20Converter.jpg)
+<!-- slide -->
+![Fuse](../images/Fuse.png)
+<!-- slide -->
+![Toggle Switch](../images/Toggle%20Switch.jpg)
+````
+
 ---
 
-## ⚡ Circuit Schematic (Power Path & Isolation)
+## ⚡ Circuit Schematic & Prototype Setup
 
-```
- [ Solar Input ] ---> [ Diode D1 ] ---> [ INA219 (Solar) ] ---> [ Relay COM ]
-                                                                       |
- [ Wind Input  ] ---> [ Diode D2 ] ---> [ INA219 (Wind)  ] ---> [ Relay COM ]
-                                                                       |
- [ Fuel Input  ] ---> [ Diode D3 ] ---> [ INA219 (Fuel)  ] ---> [ Relay COM ]
-                                                                       |
-                                                                       v
-                                                                 ( Relay NOs ) ---> [ Single Load (+) ]
-                                                                                       |
- Common GND ------------------------------------------------------------------------ [ Single Load (-) ]
-```
+![Circuit Diagram of the Sytem](../images/Circuit%20Diagram%20of%20the%20Sytem.png)
+*Figure 5.10: Complete Circuit Diagram of the Microgrid System*
+
+![Prototype Setup](../images/Prototype%20Setup.jpg)
+*Figure 5.11: Integrated Microgrid Hardware Prototype Setup*
 
 > [!CAUTION]
 > **Relay Isolation**: Always tie the grounds of the inputs together (`Common GND`) to get accurate voltage readings on the INA219 current sensors. Do NOT bridge the positive terminals of the sources directly. Always keep them physically isolated behind the diodes and the relays.

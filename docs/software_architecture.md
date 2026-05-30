@@ -85,9 +85,55 @@ An academic case study evaluated the performance of three different control desi
 
 ---
 
-## 📈 Experimental Validation
+## 📈 Simulation Scenarios & Waveforms
 
-During hardware trials:
-* **Solar PV Voltage Profile**: Showed stable operation above $12\text{V}$ under light load, dropping when current demand exceeded module rating.
-* **Wind Turbine Profile**: Depicted voltage spikes corresponding to simulated wind gusts, which were normalized by the boost regulator.
-* **Fuel Cell Transition**: When both solar and wind drops were simulated, the ESP32 detected the drop and successfully switched to the Fuel Cell backup within $45\text{ms}$, ensuring the load did not reset.
+The complete microgrid operation was simulated in MATLAB/Simulink.
+
+![Simulink Microgrid Model](../images/Complete%20Integrated%20Simulink%20Model%20of%20the%20Proposed%20Hybrid%20Renewable.png)
+*Figure 4.1: Integrated Simulink Model of the Proposed Hybrid Renewable Microgrid*
+
+````carousel
+![Solar PV Supplying Load](../images/Solar%20Photovoltaic%20System%20Supplying%20the%20Load.png)
+*(Figure 4.2: Solar Photovoltaic array supplying the microgrid load)*
+<!-- slide -->
+![Wind System Supplying Load](../images/Wind%20Energy%20Source%20Supplying%20the%20Load.png)
+*(Figure 4.3: Wind Energy generator supplying the microgrid load)*
+<!-- slide -->
+![Coordinated Solar and Wind](../images/Coordinated%20Solar%20and%20Wind%20Energy%20Source%20Operation.png)
+*(Figure 4.4: Active power balancing during coordinated Solar and Wind supply)*
+<!-- slide -->
+![Transition to Fuel Cell](../images/Transition%20from%20Renewable%20Sources%20to%20PEM%20Fuel%20Cell%20Operation.png)
+*(Figure 4.5: Transient wave during transition from Solar/Wind to PEMFC backup)*
+<!-- slide -->
+![Battery Backup Operation](../images/Battery%20Backup%20Operation%20During%20Fuel%20Cell%20Disconnection.png)
+*(Figure 4.6: BESS discharging phase during Fuel Cell isolation)*
+````
+
+---
+
+## ⚡ Experimental Hardware Validation
+
+Below are the actual voltage and current profiles recorded from the hardware sensors under varying conditions.
+
+````carousel
+![Solar PV Output Characteristics](../images/Solar%20PV%20Output%20Characteristics.jpg)
+*(Figure 5.12: Solar PV measured output voltage profile)*
+<!-- slide -->
+![Wind Generator Characteristics](../images/Wind%20Generator%20Output%20Voltage%20Characteristics.jpg)
+*(Figure 5.13: Wind generator voltage spikes and regulated output profile)*
+<!-- slide -->
+![Fuel Cell Backup Performance](../images/Fuel%20Cell%20Output%20Voltage%20Characteristics.jpg)
+*(Figure 5.14: PEM Fuel Cell activation and load voltage stability profile)*
+<!-- slide -->
+![RULE-Based Hybrid Characteristics](../images/RULE-Based%20Hybrid%20System%20Voltage%20Characteristics.png)
+*(Figure 6.1: Rule-based hybrid microgrid switching transients)*
+<!-- slide -->
+![MPPT-Based Hybrid Characteristics](../images/MPPT-Based%20Hybrid%20System%20Voltage%20Characteristics.png)
+*(Figure 6.2: Output voltage using MPPT controller)*
+<!-- slide -->
+![Comparative Voltage Output](../images/Comparative%20System%20Voltage%20Output%20Rule-Based%20vs%20MPPT-Based.png)
+*(Comparative overlay: Rule-Based vs MPPT-Based microgrid output)*
+<!-- slide -->
+![Comparison between MPPT-Based and Enhanced Rule-Based Systems](../images/Comparison%20between%20MPPT-Based%20and%20Enhanced%20Rule-Based%20Systems.png)
+*(Table 6.1: Tabular comparison evaluation graph)*
+````

@@ -30,6 +30,15 @@ The sources are combined through a common DC bus architecture to enable effectiv
 
 ## 🏛️ System Architecture
 
+![System Architecture](images/Overall%20System%20Architecture%20of%20the%20Proposed%20Hybrid%20Renewable%20Energy.png)
+
+## 📸 Prototype Hardware Setup
+
+![Prototype Hardware Setup](images/Prototype%20Setup.jpg)
+*(Integrated microgrid switching controller and monitoring prototype)*
+
+## 📊 Logical Flow
+
 ```mermaid
 graph TD
     subgraph Sources ["Input Power Sources"]
