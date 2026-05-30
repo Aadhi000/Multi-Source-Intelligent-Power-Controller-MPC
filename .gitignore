@@ -1,0 +1,24 @@
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+libdeps
+tars
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Arduino
+build/
+libraries/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.out
+*.exe
+*.bin
