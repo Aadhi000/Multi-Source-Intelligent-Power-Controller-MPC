@@ -93,22 +93,27 @@ The complete microgrid operation was simulated in MATLAB/Simulink.
 
 *Figure 4.1: Integrated Simulink Model of the Proposed Hybrid Renewable Microgrid*
 
-````carousel
+### 💻 Simulation Waveforms
+
+#### 1. Solar Photovoltaic System Supplying the Load
 ![Solar PV Supplying Load](../images/Solar%20Photovoltaic%20System%20Supplying%20the%20Load.png)
 *(Figure 4.2: Solar Photovoltaic array supplying the microgrid load)*
-<!-- slide -->
+
+#### 2. Wind Energy Source Supplying the Load
 ![Wind System Supplying Load](../images/Wind%20Energy%20Source%20Supplying%20the%20Load.png)
 *(Figure 4.3: Wind Energy generator supplying the microgrid load)*
-<!-- slide -->
+
+#### 3. Coordinated Solar and Wind Energy Source Operation
 ![Coordinated Solar and Wind](../images/Coordinated%20Solar%20and%20Wind%20Energy%20Source%20Operation.png)
 *(Figure 4.4: Active power balancing during coordinated Solar and Wind supply)*
-<!-- slide -->
+
+#### 4. Transition from Renewable Sources to PEM Fuel Cell Operation
 ![Transition to Fuel Cell](../images/Transition%20from%20Renewable%20Sources%20to%20PEM%20Fuel%20Cell%20Operation.png)
 *(Figure 4.5: Transient wave during transition from Solar/Wind to PEMFC backup)*
-<!-- slide -->
+
+#### 5. Battery Backup Operation During Fuel Cell Disconnection
 ![Battery Backup Operation](../images/Battery%20Backup%20Operation%20During%20Fuel%20Cell%20Disconnection.png)
 *(Figure 4.6: BESS discharging phase during Fuel Cell isolation)*
-````
 
 ---
 
@@ -116,25 +121,32 @@ The complete microgrid operation was simulated in MATLAB/Simulink.
 
 Below are the actual voltage and current profiles recorded from the hardware sensors under varying conditions.
 
-````carousel
+### 🔬 Experimental Voltage & Current Profiles
+
+#### 1. Solar PV Output Characteristics
 ![Solar PV Output Characteristics](../images/Solar%20PV%20Output%20Characteristics.jpg)
 *(Figure 5.12: Solar PV measured output voltage profile)*
-<!-- slide -->
+
+#### 2. Wind Generator Output Voltage Characteristics
 ![Wind Generator Characteristics](../images/Wind%20Generator%20Output%20Voltage%20Characteristics.jpg)
 *(Figure 5.13: Wind generator voltage spikes and regulated output profile)*
-<!-- slide -->
+
+#### 3. Fuel Cell Output Voltage Characteristics
 ![Fuel Cell Backup Performance](../images/Fuel%20Cell%20Output%20Voltage%20Characteristics.jpg)
 *(Figure 5.14: PEM Fuel Cell activation and load voltage stability profile)*
-<!-- slide -->
+
+#### 4. RULE-Based Hybrid System Voltage Characteristics
 ![RULE-Based Hybrid Characteristics](../images/RULE-Based%20Hybrid%20System%20Voltage%20Characteristics.png)
 *(Figure 6.1: Rule-based hybrid microgrid switching transients)*
-<!-- slide -->
+
+#### 5. MPPT-Based Hybrid System Voltage Characteristics
 ![MPPT-Based Hybrid Characteristics](../images/MPPT-Based%20Hybrid%20System%20Voltage%20Characteristics.png)
 *(Figure 6.2: Output voltage using MPPT controller)*
-<!-- slide -->
+
+#### 6. Comparative System Voltage Output (Rule-Based vs MPPT-Based)
 ![Comparative Voltage Output](../images/Comparative%20System%20Voltage%20Output%20Rule-Based%20vs%20MPPT-Based.png)
 *(Comparative overlay: Rule-Based vs MPPT-Based microgrid output)*
-<!-- slide -->
+
+#### 7. Comparative Performance Evaluation Chart
 ![Comparison between MPPT-Based and Enhanced Rule-Based Systems](../images/Comparison%20between%20MPPT-Based%20and%20Enhanced%20Rule-Based%20Systems.png)
 *(Table 6.1: Tabular comparison evaluation graph)*
-````

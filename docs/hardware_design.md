@@ -66,25 +66,13 @@ This document details the physical hardware, pin configurations, component speci
 
 ## 📸 Hardware Component Gallery
 
-````carousel
-![ESP32 Development Board](../images/ESP32%20Development%20Board.jpg)
-<!-- slide -->
-![INA219 Current Sensor](../images/INA219%20Current%20Sensor.jpg)
-<!-- slide -->
-![IRLZ44N MOSFET](../images/IRLZ44N%20MOSFET.jpg)
-<!-- slide -->
-![0.91-Inch OLED Display](../images/0.91-Inch%20OLED%20Display.jpg)
-<!-- slide -->
-![MP1584 DC-DC Buck Converter](../images/MP1584%20DC-DC%20Buck%20Converter.jpg)
-<!-- slide -->
-![Schottky Diode](../images/Schottky%20Diod.jpg)
-<!-- slide -->
-![DC-DC Boost Converter](../images/DC-DC%20Boost%20Converter.jpg)
-<!-- slide -->
-![Fuse](../images/Fuse.png)
-<!-- slide -->
-![Toggle Switch](../images/Toggle%20Switch.jpg)
-````
+| **ESP32 Dev Board** | **INA219 Current Sensor** | **IRLZ44N MOSFET** |
+| :---: | :---: | :---: |
+| ![ESP32 Development Board](../images/ESP32%20Development%20Board.jpg) | ![INA219 Current Sensor](../images/INA219%20Current%20Sensor.jpg) | ![IRLZ44N MOSFET](../images/IRLZ44N%20MOSFET.jpg) |
+| **0.91-Inch OLED Display** | **MP1584 Buck Converter** | **Schottky Diode** |
+| ![0.91-Inch OLED Display](../images/0.91-Inch%20OLED%20Display.jpg) | ![MP1584 DC-DC Buck Converter](../images/MP1584%20DC-DC%20Buck%20Converter.jpg) | ![Schottky Diode](../images/Schottky%20Diod.jpg) |
+| **DC-DC Boost Converter** | **Fuse** | **Toggle Switch** |
+| ![DC-DC Boost Converter](../images/DC-DC%20Boost%20Converter.jpg) | ![Fuse](../images/Fuse.png) | ![Toggle Switch](../images/Toggle%20Switch.jpg) |
 
 ---
 
