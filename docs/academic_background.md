@@ -27,11 +27,8 @@ We extend our deepest gratitude to:
 * The Seminar and Project coordinators and all members of the EEE Department faculty at MBCCET for their suggestions.
 * Our families and friends for their wholehearted support, kind wishes, and encouragement.
 
-### Project Team (Batch of 2025-2026)
-* **ABIYA S S**
-* **AHSANA MEHARIN K N**
-* **ANJALY M**
-* **ATHULYA SUDARSHAN**
+### Project Author (Batch of 2025-2026)
+* **AADIL MUHAMMED**
 
 *Department of Electrical and Electronics Engineering*  
 *Mar Baselios Christian College of Engineering and Technology, Peermade, Kerala*

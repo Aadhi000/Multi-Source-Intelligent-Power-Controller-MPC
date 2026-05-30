@@ -148,13 +148,12 @@ This repository contains highly specialized files detailing different aspects of
 
 ---
 
-## 👥 Authors & Academic Context
+## 👥 Author & Academic Context
 
-Developed as a Bachelor of Technology curriculum project in the **Department of Electrical and Electronics Engineering (EEE)** (Batch of 2025-2026):
-* **ABIYA S S**
-* **AHSANA MEHARIN K N**
-* **ANJALY M**
-* **ATHULYA SUDARSHAN**
+Developed by:
+* **AADIL MUHAMMED**
+
+As part of a Bachelor of Technology curriculum project in the **Department of Electrical and Electronics Engineering (EEE)** (Batch of 2025-2026).
 
 **Under the Guidance of:**
 * **Prof. Fini Fathima** (Associate Professor, EEE Department)
